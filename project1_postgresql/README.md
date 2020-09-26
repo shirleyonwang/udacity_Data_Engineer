@@ -60,12 +60,12 @@ when inserting to songplay or user table, if user id is null, then ignore.
 # Result tables
 
 * songplays</br>
-![image](https://github.com/shirleyonwang/udacity_Data_Engineer/tree/master/project1_postgresql/image/songplay.PNG)
+![songplay](https://github.com/shirleyonwang/udacity_Data_Engineer/blob/master/project1_postgresql/image/songplay.png)
 * users</br>
-![image](https://github.com/shirleyonwang/udacity_Data_Engineer/tree/master/project1_postgresql/image/user.PNG)
+![users](https://github.com/shirleyonwang/udacity_Data_Engineer/blob/master/project1_postgresql/image/user.PNG)
 * songs</br>
-![image](https://github.com/shirleyonwang/udacity_Data_Engineer/tree/master/project1_postgresql/image/song.PNG)
+![songs](https://github.com/shirleyonwang/udacity_Data_Engineer/blob/master/project1_postgresql/image/song.PNG)
 * artists</br>
-![image](https://github.com/shirleyonwang/udacity_Data_Engineer/tree/master/project1_postgresql/image/artists.PNG)
+![artists](https://github.com/shirleyonwang/udacity_Data_Engineer/blob/master/project1_postgresql/image/artists.PNG)
 * time</br>
-![image](https://github.com/shirleyonwang/udacity_Data_Engineer/tree/master/project1_postgresql/image/time.PNG)
+![time](https://github.com/shirleyonwang/udacity_Data_Engineer/blob/master/project1_postgresql/image/time.PNG)
