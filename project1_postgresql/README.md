@@ -60,12 +60,12 @@ when inserting to songplay or user table, if user id is null, then ignore.
 # Result tables
 
 * songplays</br>
-![avatar](image/songplay.PNG)
+![image](https://github.com/shirleyonwang/udacity_Data_Engineer/tree/master/project1_postgresql/image/songplay.PNG)
 * users</br>
-![avatar](image/user.PNG)
+![image](https://github.com/shirleyonwang/udacity_Data_Engineer/tree/master/project1_postgresql/image/user.PNG)
 * songs</br>
-![avatar](image/song.PNG)
+![image](https://github.com/shirleyonwang/udacity_Data_Engineer/tree/master/project1_postgresql/image/song.PNG)
 * artists</br>
-![avatar](image/artists.PNG)
+![image](https://github.com/shirleyonwang/udacity_Data_Engineer/tree/master/project1_postgresql/image/artists.PNG)
 * time</br>
-![avatar](image/time.PNG)
+![image](https://github.com/shirleyonwang/udacity_Data_Engineer/tree/master/project1_postgresql/image/time.PNG)
