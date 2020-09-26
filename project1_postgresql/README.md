@@ -4,7 +4,7 @@ the project is used to practise the sql query in postgres. create table, select 
 
 # database schema design 
 it includes below tables</p>
-* songplays</br>
+1.songplays</br>
  * songplay_id SERIAL , 
  * start_time varchar NOT NULL, 
  * user_id integer NOT NULL, 
@@ -17,28 +17,28 @@ it includes below tables</p>
  * PRIMARY KEY(songplay_id,start_time,user_id)
                             
 
-* users</br>
+2.users</br>
  * user_id integer PRIMARY KEY, 
  * first_name varchar, 
  * last_name varchar, 
  * gender varchar, 
  * evel varchar
  
-* songs</br>
+3.songs</br>
  * song_id varchar PRIMARY KEY, 
  * title varchar, 
  * artist_id varchar, 
  * year integer, 
  * duration float
                     
-* artists</br>
+4.artists</br>
  * artist_id varchar  PRIMARY KEY, 
  * name varchar, 
  * location varchar, 
  * latitude float, 
  * longitude float
                             
-* time</br>
+5.time</br>
  * start_time varchar  PRIMARY KEY, 
  * hour integer, 
  * day integer, 
