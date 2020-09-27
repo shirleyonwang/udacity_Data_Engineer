@@ -3,7 +3,7 @@ the project is used to build an ETL pipeline that extracts data from S3, stages 
 
 # database schema design 
 it includes below tables</p>
-* staging_events
+1. staging_events
  * artist    varchar,
  * auth      varchar,
  * firstName varchar,
@@ -23,7 +23,7 @@ it includes below tables</p>
  * userAgent  varchar,
  * userId     INTEGER 
 
-* staging_songs
+2. staging_songs
  * num_songs        integer, 
  * artist_id        varchar , 
  * artist_latitude  float, 
@@ -48,28 +48,28 @@ it includes below tables</p>
  * PRIMARY KEY(songplay_id,start_time,user_id)
                             
 
-* users</br>
+3. users</br>
  * user_id    integer PRIMARY KEY, 
  * first_name varchar, 
  * last_name  varchar, 
  * gender     varchar, 
  * level      varchar
  
-* songs</br>
+4. songs</br>
  * song_id   varchar PRIMARY KEY, 
  * title     varchar, 
  * artist_id varchar, 
  * year      integer, 
  * duration  float
                     
-* artists</br>
+5. artists</br>
  * artist_id varchar  PRIMARY KEY, 
  * name      varchar, 
  * location  varchar, 
  * latitude  float, 
  * longitude float
                             
-* time</br>
+6. time</br>
  * start_time varchar  PRIMARY KEY, 
  * hour    integer, 
  * day     integer, 
@@ -91,12 +91,12 @@ also you can run projects_all_code.ipynb
 # Result tables
 
 * songplays</br>
-![avatar](image/songplay.PNG)
+![songplays](https://github.com/shirleyonwang/udacity_Data_Engineer/blob/master/project3_cloud_db/image/songplay.PNG)
 * users</br>
-![avatar](image/user.PNG)
+![users](https://github.com/shirleyonwang/udacity_Data_Engineer/blob/master/project3_cloud_db/image/user.PNG)
 * songs</br>
-![avatar](image/song.PNG)
+![songs](https://github.com/shirleyonwang/udacity_Data_Engineer/blob/master/project3_cloud_db/image/song.PNG)
 * artists</br>
-![avatar](image/artists.PNG)
+![artists](https://github.com/shirleyonwang/udacity_Data_Engineer/blob/master/project3_cloud_db/image/artists.PNG)
 * time</br>
-![avatar](image/time.PNG)
+![time](https://github.com/shirleyonwang/udacity_Data_Engineer/blob/master/project3_cloud_db/image/time.PNG)
