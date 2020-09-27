@@ -90,12 +90,12 @@ it includes below tables</p>
 # Result tables
 
 * songplays</br>
-![songplays](https://github.com/shirleyonwang/udacity_Data_Engineer/blob/master/project4_Spark/image/songplay.PNG)
+![songplays](https://github.com/shirleyonwang/udacity_Data_Engineer/blob/master/project4_Spark/image/songplay.png?raw=true)
 * users</br>
-![users](https://github.com/shirleyonwang/udacity_Data_Engineer/blob/master/project4_Spark/image/user.PNG)
+![users](https://github.com/shirleyonwang/udacity_Data_Engineer/blob/master/project4_Spark/image/user.png?raw=true)
 * songs</br>
-![songs](https://github.com/shirleyonwang/udacity_Data_Engineer/blob/master/project4_Spark/image/song.PNG)
+![songs](https://github.com/shirleyonwang/udacity_Data_Engineer/blob/master/project4_Spark/image/song.png?raw=true)
 * artists</br>
-![artists](https://github.com/shirleyonwang/udacity_Data_Engineer/blob/master/project4_Spark/image/artists.PNG)
+![artists](https://github.com/shirleyonwang/udacity_Data_Engineer/blob/master/project4_Spark/image/artists.png?raw=true)
 * time</br>
-![time](https://github.com/shirleyonwang/udacity_Data_Engineer/blob/master/project4_Spark/image/time2.PNG)
+![time](https://github.com/shirleyonwang/udacity_Data_Engineer/blob/master/project4_Spark/image/time2.png?raw=true)
