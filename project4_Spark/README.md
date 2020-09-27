@@ -3,7 +3,7 @@ the project is used to build an ETL pipeline for a data lake hosted on S3.  load
 
 # database schema design 
 it includes below tables</p>
-* staging_events
+1. staging_events
  * artist    varchar,
  * auth      varchar,
  * firstName varchar,
@@ -23,7 +23,7 @@ it includes below tables</p>
  * userAgent  varchar,
  * userId     INTEGER 
 
-* staging_songs
+2. staging_songs
  * num_songs        integer, 
  * artist_id        varchar , 
  * artist_latitude  float, 
@@ -35,7 +35,7 @@ it includes below tables</p>
  * duration         FLOAT,
  * year             integer     
 
-* songplays</br>
+3. songplays</br>
  * songplay_id bigint  identity(0, 1), 
  * start_time          varchar NOT NULL, 
  * user_id             integer NOT NULL, 
@@ -48,28 +48,28 @@ it includes below tables</p>
  * PRIMARY KEY(songplay_id,start_time,user_id)
                             
 
-* users</br>
+4. users</br>
  * user_id    integer PRIMARY KEY, 
  * first_name varchar, 
  * last_name  varchar, 
  * gender     varchar, 
  * level      varchar
  
-* songs</br>
+5. songs</br>
  * song_id   varchar PRIMARY KEY, 
  * title     varchar, 
  * artist_id varchar, 
  * year      integer, 
  * duration  float
                     
-* artists</br>
+6. artists</br>
  * artist_id varchar  PRIMARY KEY, 
  * name      varchar, 
  * location  varchar, 
  * latitude  float, 
  * longitude float
                             
-* time</br>
+7. time</br>
  * start_time varchar  PRIMARY KEY, 
  * hour    integer, 
  * day     integer, 
@@ -90,12 +90,12 @@ it includes below tables</p>
 # Result tables
 
 * songplays</br>
-![avatar](image/songplay.PNG)
+![songplays](https://github.com/shirleyonwang/udacity_Data_Engineer/blob/master/project4_Spark/image/songplay.PNG)
 * users</br>
-![avatar](image/user.PNG)
+![users](https://github.com/shirleyonwang/udacity_Data_Engineer/blob/master/project4_Spark/image/user.PNG)
 * songs</br>
-![avatar](image/song.PNG)
+![songs](https://github.com/shirleyonwang/udacity_Data_Engineer/blob/master/project4_Spark/image/song.PNG)
 * artists</br>
-![avatar](image/artists.PNG)
+![artists](https://github.com/shirleyonwang/udacity_Data_Engineer/blob/master/project4_Spark/image/artists.PNG)
 * time</br>
-![avatar](image/time2.PNG)
+![time](https://github.com/shirleyonwang/udacity_Data_Engineer/blob/master/project4_Spark/image/time2.PNG)
