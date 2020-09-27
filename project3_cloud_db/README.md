@@ -91,12 +91,12 @@ also you can run projects_all_code.ipynb
 # Result tables
 
 * songplays</br>
-![songplays](https://github.com/shirleyonwang/udacity_Data_Engineer/blob/master/project3_cloud_db/image/songplay.PNG)
+![songplays](https://github.com/shirleyonwang/udacity_Data_Engineer/blob/master/project3_cloud_db/image/songplay.png?raw=true)
 * users</br>
-![users](https://github.com/shirleyonwang/udacity_Data_Engineer/blob/master/project3_cloud_db/image/user.PNG)
+![users](https://github.com/shirleyonwang/udacity_Data_Engineer/blob/master/project3_cloud_db/image/user.png?raw=true)
 * songs</br>
-![songs](https://github.com/shirleyonwang/udacity_Data_Engineer/blob/master/project3_cloud_db/image/song.PNG)
+![songs](https://github.com/shirleyonwang/udacity_Data_Engineer/blob/master/project3_cloud_db/image/song.png?raw=true)
 * artists</br>
-![artists](https://github.com/shirleyonwang/udacity_Data_Engineer/blob/master/project3_cloud_db/image/artists.PNG)
+![artists](https://github.com/shirleyonwang/udacity_Data_Engineer/blob/master/project3_cloud_db/image/artists.png?raw=true)
 * time</br>
-![time](https://github.com/shirleyonwang/udacity_Data_Engineer/blob/master/project3_cloud_db/image/time.PNG)
+![time](https://github.com/shirleyonwang/udacity_Data_Engineer/blob/master/project3_cloud_db/image/time.png?raw=true)
